@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7 Wonders of the World</title>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fruktur&family=Inter:wght@500&family=Lora&family=PT+Serif&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
+<style>
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:antiquewhite;
+  
+}
+#head{
+  background-color: #D95D39;
+  text-align: center;
+  height: 80px;
+  line-height: 80px;
+  color: #0E1428;
+  font-family: 'PT Serif', serif;
+  font-size: 20px;
+}
+
+nav{
+  background-color: #c15133;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 3vmin;
+  padding: 1vmin;
+}
+
+#link{
+  color: black;
+  text-decoration: none;
+}
+
+#bar{
+  text-align: center;
+  margin: 10px;
+  font-family: 'PT Serif', serif;
+}
+
+#Form{
+  width:1200px;
+  height:1000px;
+  text-align: justify;
+  font-size: 18px;
+  margin-left: 180px;
+  margin-right: 150px;
+  margin-top: 200px;
+}
+
+#Fs{
+  border-radius: 10px;
+  margin: 10px;
+}
+
+#nl{
+  text-align: center;
+  font: 20px;
+  color: black;
+  font-family: 'PT Serif', serif;
+}
+
+.ppfl{
+  color: black;
+  font: 20px;
+  font-family: 'PT Serif', serif;
+  text-align: center;
+}
+
+#name{
+  color: black;
+  font-family: 'PT Serif', serif;
+  margin-left: 20px;
+}
+
+#Foot{
+  height: 150px;
+  background-color: #c15133;
+}
+
+#texth{
+  line-height: 35px;
+  margin-bottom: 3px;
+  padding: 10px;
+  text-align: center;
+}
+
+#apple{
+  font-size: 25px;
+}
+</style>
+
+</head>
+<body>
+
+  <header id = "head">
+    <a id = "link" href = "index.html"><h1>The 7 Wonders of the World</h1></a>
+  </header>
+    
+  <nav>
+    <div id = "bar"><a id = "link" href="https://www.google.com/maps/place/Colosseum/@41.8902142,12.4900422,17z/data=!3m1!4b1!4m5!3m4!1s0x132f61b6532013ad:0x28f1c82e908503c4!8m2!3d41.8902102!4d12.4922309" target="_blank">First Wonder</a></div>
+    <div id = "bar">|</div>
+    <div id = "bar"><a id = "link" href="https://www.google.com/maps/place/Great+Wall+of+China/@40.4319118,116.5681862,17z/data=!3m1!4b1!4m5!3m4!1s0x35f121d7687f2ccf:0xd040259b950522df!8m2!3d40.4319077!4d116.5703749" target="_blank">Second Wonder</a></div>
+    <div id = "bar">|</div>
+    <div id = "bar"><a id = "link" href="https://www.google.com/maps/place/Taj+Mahal/@27.1751496,78.0399535,17z/data=!3m1!4b1!4m5!3m4!1s0x39747121d702ff6d:0xdd2ae4803f767dde!8m2!3d27.1751448!4d78.0421422" target="_blank">Third Wonder</a></div>
+    <div id = "bar">|</div>
+    <div id = "bar"><a id = "link" href="https://www.google.com/maps/place/Christ+the+Redeemer/@-22.951911,-43.2126759,17z/data=!3m1!4b1!4m5!3m4!1s0x997fd5984aa13f:0x9dc984d7019502de!8m2!3d-22.951916!4d-43.2104872" target="_blank">Fourth Wonder</a></div>
+    <div id = "bar">|</div>
+    <div id = "bar"><a id = "link" href = "https://www.google.com/maps/place/Machu+Picchu/@-13.163136,-72.5471516,17z/data=!3m1!4b1!4m5!3m4!1s0x916d9a5f89555555:0x3a10370ea4a01a27!8m2!3d-13.1631412!4d-72.5449629" target = "_blank">Fith Wonder</a></div>
+    <div id = "bar">|</div>
+    <div id = "bar"><a id = "link" href = "https://www.google.com/maps/place/Chich%C3%A9n+Itz%C3%A1/@20.6835593,-88.5801601,14z/data=!4m10!1m2!2m1!1schichen+itza!3m6!1s0x8f5138c6e391c0e7:0x7c1ea0a168994d9a!8m2!3d20.6842849!4d-88.5677826!15sCgxjaGljaGVuIGl0emFaDiIMY2hpY2hlbiBpdHphkgETYXJjaGFlb2xvZ2ljYWxfc2l0ZZoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VSTmRHODNWa3RuRUFF4AEA!16zL20vMDE3a3B2" target = "_blank">Sixth Wonder</a></div>
+    <div id = "bar">|</div>
+    <div id = "bar"><a id = "link" href = "https://www.google.com/maps/place/Petra/@30.328459,35.4421735,17z/data=!3m1!4b1!4m5!3m4!1s0x15016ef1703b6071:0x199bf908679a2291!8m2!3d30.3284544!4d35.4443622" target = "_blank">Seventh Wonder</a></div>
+  </nav>
+
+
+  <form id = "Form">
+    <fieldset id = "Fs">
+    <legend id = "nl"><h1>Suscribe to our 7WW Newsletter!</h1></legend>
+    <br>
+    <fieldset id = "Fs">
+        <legend><h3 class ="ppfl">Please Provide you First and Last Name</h3></legend>
+        <br>
+        <label for = "fname" id = "name">First Name</label>
+        <input id="age" title="We ask for your name for our safety" placeholder = "First Name" pattern = "^[a-zA-Z]*[^0-9]">
+        <br><br>
+        <label for = "fname" id = "name">Last Name</label>
+        <input id="age" title="We ask for your name for our safety" placeholder = "Last Name" pattern = "^[a-zA-Z]*[^0-9]">
+        <br><br>
+    </fieldset>
+    <br>
+    <fieldset id = "Fs">
+        <legend><h3 class = "ppfl">Address and Email</h3></legend>
+        <br>
+        <label for = "ad" id = "name">Address</label>
+        <input type = "text" id = "ad" name = "addr" placeholder = "Address1" pattern = "^[0-9]+\s[a-zA-Z]+\s[a-zA-Z0-9]+\s[a-zA-Z]+" required>
+        <br><br>
+        <label for = "ad" id = "name">City</label>
+        <input type = "text" id = "ad" name = "city" placeholder = "City" pattern = "^[a-zA-Z]*[^0-9]" required>
+        <br><br>
+        <label for = "zip" id = "name">Zipcode</label>
+        <input type = "text" id = "zip" name = "zCoder" placeholder = "Zipcode" pattern = "^[0-9]{5}" required>
+        <br><br>
+        <label for = "st" id = "name">State</label>
+        <input type = "text" id = "st" name = "state" placeholder = "State" pattern = "^[a-zA-Z]*[^0-9]" required>
+        <br><br>
+        <label for = "em" id = "name">Email</label>
+        <input type = "email" id = "em" name = "email" placeholder = "Email" pattern= "^[a-zA-Z0-9]+.[a-zA-Z]+.[a-zA-Z]+" required>
+        <br><br>
+        <label for = "em" id = "name">Phone</label>
+        <input type = "number" id = "em" name = "phone" placeholder = "Phone" pattern = "^[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+        <br><br>
+    </fieldset>
+    <br>
+    <fieldset id = "Fs">
+        <legend><h3 class = "ppfl">The Date of when you suscribed</h3></legend>
+        <br>
+        <p>Date: <input type="text" id="datepicker"></p>
+        <br>
+    </fieldset>
+    </fieldset>
+ </form>
+
+ <footer id = "Foot">
+    <h3 id = "texth">About</h3>
+    <h3 id = "texth">&copy 7 Wonders of the World</h3>
+</body>
+
+<script>
+$( function() {
+    $( "#datepicker" ).datepicker();
+} );
+
+$( function() {
+    $( document ).tooltip();
+} );
+</script>
+
+</html>
